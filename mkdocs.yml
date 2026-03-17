@@ -1,0 +1,61 @@
+site_name: "Slidoo - Feature Docs"
+site_description: "Product and engineering documentation"
+docs_dir: docs
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - navigation.top
+    - search.highlight
+    - search.suggest
+
+markdown_extensions:
+  - tables
+  - toc:
+      permalink: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+plugins:
+  - search:
+      lang: en
+
+nav:
+  - Home:
+    - index.md
+    - Project Brief: PROJECT_BRIEF.md
+    - Architecture: ARCHITECTURE.md
+    - Glossary: GLOSSARY.md
+    - Decisions (ADR): DECISIONS.md
+    - Roadmap: ROADMAP.md
+    - Backlog: BACKLOG.md
+
+  - Design System:
+    - Overview: design-system/README.md
+    - Colors: design-system/colors.md
+    - Typography: design-system/typography.md
+    - Spacing & Layout: design-system/spacing.md
+    - Components: design-system/components.md
+
+  - Non-Functional Requirements: nfr/NON_FUNCTIONAL.md
+
+  - Features:
+    - Index: features/INDEX.md
+    - Task Management: features/task-management/README.md
+    - Slide-to-Progress: features/slide-progress/README.md
+    - Subtask Hierarchy: features/subtask-hierarchy/README.md
+    - Deadline Tracking: features/deadline-tracking/README.md
+    - Color Customization: features/color-customization/README.md
+    - Search & Export: features/search-export/README.md
+
+  - Reports:
+    - Index: reports/README.md
