@@ -1,6 +1,6 @@
 # Docs-First Case Study: Slidoo (Swift/SwiftUI)
 
-> **This repository is a case study for the [Docs-First method](LINK_TO_ARTICLE)** — a documentation-driven approach to AI-assisted software development. This project was built by adapting the documentation from the [React version](https://github.com/paitoweb/docs-first-case-study-react) to a completely different platform — proving that Docs-First documentation is a specification of the *product*, not the *technology*.
+> **This repository is a case study for the [Docs-First method](https://medium.com/@fabricio_12873/docs-first-ai-development-method-34dad91e40b5)** — a documentation-driven approach to AI-assisted software development. This project was built by adapting the documentation from the [React version](https://github.com/paitoweb/docs-first-case-study-react) to a completely different platform — proving that Docs-First documentation is a specification of the *product*, not the *technology*.
 
 ---
 
